@@ -53,4 +53,33 @@ Category.create({name: "Shopping", budget: 400, monthly_budget: mb4})
 Category.create({name: "Utilities", budget: 200, monthly_budget: mb4})
 Category.create({name: "Entertainment", budget: 200, monthly_budget: mb4})
 
-Transaction.create({category: Category.all[0], name: "Best Buy", amount: 499, type: false})
+Transaction.create({category: Category.all[0], name: "Pizza Hut", amount: 49, type: false})
+Transaction.create({category: Category.all[0], name: "Polo Club", amount: 499, type: false})
+Transaction.create({category: Category.all[0], name: "China Town", amount: 23, type: false})
+Transaction.create({category: Category.all[0], name: "11 Mad", amount: 350, type: false})
+
+Transaction.create({category: Category.all[1], name: "Saks", amount: 321, type: false})
+Transaction.create({category: Category.all[1], name: "H&M", amount: 100, type: false})
+Transaction.create({category: Category.all[1], name: "RL", amount: 34, type: false})
+
+Transaction.create({category: Category.all[2], name: "Uber", amount: 29.40, type: false})
+Transaction.create({category: Category.all[2], name: "United Air", amount: 98.40, type: false})
+Transaction.create({category: Category.all[2], name: "United Air", amount: 295, type: false})
+Transaction.create({category: Category.all[2], name: "Airbnb", amount: 1300, type: false})
+
+Transaction.create({category: Category.all[3], name: "William Sonoma", amount: 32.40, type: false})
+Transaction.create({category: Category.all[3], name: "Yankee Candle", amount: 42.44, type: false})
+Transaction.create({category: Category.all[3], name: "Restoration Hardware", amount: 3200.40, type: false})
+
+Transaction.create({category: Category.all[4], name: "Coned", amount: 59.22, type: false})
+
+Transaction.create({category: Category.all[5], name: "HBO", amount: 14.99, type: false})
+
+
+Transaction.create({category: Category.all[6], name: "Maki Maki", amount: 21.21, type: false})
+Transaction.create({category: Category.all[6], name: "Stone St Pizza", amount: 29.30, type: false})
+
+Transaction.create({category: Category.all[7], name: "Lulu Lemon", amount: 212.30, type: false})
+
+
+
