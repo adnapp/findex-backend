@@ -20,6 +20,12 @@ class MonthlyBudgetsController < ApplicationController
         render json: monthlyBudget
     end
 
+    def update 
+        monthlyBudget = MonthlyBudget.find(params[:id])
+        monthlyBudget.update(monthlyBudget_params)
+        render json: monthlyBudget
+    end
+
 
 
 
