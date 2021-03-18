@@ -1,6 +1,5 @@
 class TransactionsController < ApplicationController
 
-
     def index 
         transactions = Transaction.all
         render json: transactions
@@ -21,9 +20,6 @@ class TransactionsController < ApplicationController
         transaction.destroy
         render json: transaction
     end
-
-
-
 
     private 
 

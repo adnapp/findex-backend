@@ -26,15 +26,10 @@ class MonthlyBudgetsController < ApplicationController
         render json: monthlyBudget
     end
 
-
-
-
     private 
 
     def monthlyBudget_params
         params.permit(:name, :year, :month, :budget, :user_id)
     end
-
-
 
 end

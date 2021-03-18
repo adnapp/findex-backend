@@ -1,6 +1,4 @@
 class CategoriesController < ApplicationController
-
-
     def index
         categories = Category.all 
         render json: categories
@@ -28,13 +26,10 @@ class CategoriesController < ApplicationController
         render json: category
     end
 
-
     private 
 
     def category_params
         params.permit(:name, :budget, :monthly_budget_id)
 
     end
-
-
 end

@@ -9,16 +9,16 @@
 Transaction.destroy_all
 MonthlyBudget.destroy_all
 Category.destroy_all
-# User.destroy_all
+User.destroy_all
 
 User.create({name: "Adam", username: "adnap" })
 
 u1 = User.first
 
-MonthlyBudget.create({name: "Feb 2021 Budget", month: 2, year: 2021, budget: 2000, user: u1 })
-MonthlyBudget.create({name: "Jan 2021 Budget", month: 1, year: 2021, budget: 2100, user: u1 })
-MonthlyBudget.create({name: "Dec 2020 Budget", month: 12, year: 2020, budget: 1900, user: u1 })
 MonthlyBudget.create({name: "Nov 2020 Budget", month: 11, year: 2020, budget: 1900, user: u1 })
+MonthlyBudget.create({name: "Dec 2020 Budget", month: 12, year: 2020, budget: 1900, user: u1 })
+MonthlyBudget.create({name: "Jan 2021 Budget", month: 1, year: 2021, budget: 2100, user: u1 })
+MonthlyBudget.create({name: "Feb 2021 Budget", month: 2, year: 2021, budget: 2000, user: u1 })
 
 mb1 = MonthlyBudget.first
 mb2 = MonthlyBudget.second
