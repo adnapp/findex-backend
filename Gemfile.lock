@@ -67,6 +67,7 @@ GEM
     byebug (11.1.3)
     case_transform (0.2)
       activesupport
+    coinbase (4.2.2)
     concurrent-ruby (1.1.8)
     crass (1.0.6)
     erubi (1.10.0)
@@ -160,6 +161,7 @@ DEPENDENCIES
   active_model_serializers
   bootsnap (>= 1.4.2)
   byebug
+  coinbase
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
