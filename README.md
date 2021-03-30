@@ -1,24 +1,19 @@
-# README
+#Findex was designed to be a personal financial freedom app, giving users the ability to budget in fiat, with the ability to view and in future releases trade crypto currency
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Demo:
 
-Things you may want to cover:
+<a href="https://youtu.be/DlVj1qxiG9w" target="_blank"><img src="http://img.youtube.com/vi/DlVj1qxiG9w/0.jpg" 
+alt="Krunch Demo" width="240" height="180" border="10" /></a>
 
-* Ruby version
 
-* System dependencies
+Install the database:
 
-* Configuration
+rails db:create
+rails db:migrate
+rails db:seed
+Run the server
 
-* Database creation
+rails s
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Proceed to run the front end <a href="https://github.com/adnapp/findex-frontend">here</a>.
