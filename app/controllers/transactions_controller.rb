@@ -29,13 +29,11 @@ class TransactionsController < ApplicationController
 
     def testCrypto 
 
-        account_id ="e0172921-57bc-53e5-aa6c-d6a02ea5d1ee"
-        btcAdd1 = "7ec66567-2239-571b-8b45-234e70da9bcb"
-        btcAdd2 = "652da520-9e4c-5ee6-be2e-f7c78c946ad2"
+       
 
-        account = CLIENT.account(account_id)
+        account = CLIENT.account($account_id)
         transactions = account.list_buys
-        addresses = account.address(btcAdd1)
+        addresses = account.address($btcAdd1)
         
         render json: transactions
  
